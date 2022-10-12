@@ -1,0 +1,21 @@
+.navbar {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 115px;
+    padding-right: 115px;
+    background-color: bisque;
+    color: blueviolet
+}
+
+.link {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.link:hover {
+    color: orange;
+}
