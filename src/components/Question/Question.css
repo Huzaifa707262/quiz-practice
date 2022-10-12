@@ -1,12 +1,14 @@
 .question {
-    border: 1px solid gray;
+    border: 2px solid orange;
     border-radius: 15px;
     gap: 8px;
-    margin: 30px auto;
-    background-color: beige;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    background-color: burlywood;
 }
 
 .option {
-    margin-left: 8px;
-    /* display: flex */
+
+    margin-left: 50px;
 }

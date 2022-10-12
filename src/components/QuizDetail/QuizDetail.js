@@ -7,7 +7,7 @@ const QuizDetail = () => {
     const quiz = useLoaderData();
 
     const questions = quiz.data.questions;
-    // const answers = quiz.data.questions;
+
     return (
         <div>
             <h1>Welcome Our  quiz practice</h1>
@@ -16,7 +16,7 @@ const QuizDetail = () => {
                 {
                     questions.map(question => <Question
                         question={question}
-                        ans={question.options}
+                        answer={question.options}
 
                     ></Question>)
                 }
