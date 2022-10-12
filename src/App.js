@@ -13,6 +13,7 @@ function App() {
       children: [
         {
           path: '/topics',
+          loader: () => fetch(' https://openapi.programming-hero.com/api/quiz'),
           element: <Topics></Topics>
         },
         {
@@ -29,6 +30,7 @@ function App() {
   return (
     <div className="App">
       <RouterProvider router={router}></RouterProvider>
+
     </div>
   );
 }

@@ -1,0 +1,25 @@
+.quiz {
+    border: 1px solid blue;
+    border-radius: 10px;
+    box-shadow: 4px 5px 7px grey;
+    padding-bottom: 6px;
+}
+
+.quiz img {
+    height: 250px;
+    width: 98%;
+    background-color: bisque;
+}
+
+.btn {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 7px;
+    background-color: coral;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+}
