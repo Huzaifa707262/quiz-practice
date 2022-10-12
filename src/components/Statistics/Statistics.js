@@ -1,4 +1,3 @@
-import { ToolTips } from 'rechart';
 import { LineChart, Line, XAxis, YAxis, Tooltip } from 'recharts';
 
 
